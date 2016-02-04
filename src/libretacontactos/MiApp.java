@@ -7,9 +7,10 @@ package libretacontactos;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Jota
+/**Contiene el menú de la aplicación y es desde donde se invocan los métodos principales de la aplicación
+ * @author JoTaQuery
+ * @version 2.1
+ * 
  */
 public class MiApp {
 

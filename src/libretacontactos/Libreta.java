@@ -6,8 +6,8 @@
 package libretacontactos;
 import javax.swing.JOptionPane;
 /**
- *
- * @author Jota
+ *Permite crear una libreta y aporta métodos para trabajar con ella como añadir contactos, grupos, borrarlos, etc...
+ * @author JotaQuery
  */
 public class Libreta {
     //private String nombre;
