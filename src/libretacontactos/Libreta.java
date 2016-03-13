@@ -22,6 +22,10 @@ public class Libreta {
         }*/
     }
     
+    /**
+     * crea un contacto y lo añade a la libreta.
+     * @param contacto recibe un objeto de tipo contacto.
+     */
     public void engadir(Contacto contacto){
         boolean libretaLlena=true;
         for(int i=0;i<contactos.length;i++){
@@ -37,6 +41,9 @@ public class Libreta {
         }
     }
     
+    /**
+     * crea un contacto y lo añade a la libreta.
+     */
     public void engadir(){
         boolean libretaLlena=true;
         for(int i=0;i<contactos.length;i++){
@@ -53,6 +60,9 @@ public class Libreta {
         }
     }
     
+    /**
+     * Muestra los contactos de la libreta
+     */
     public void listar(){
         String cadena="";
         for(Contacto elemento:contactos){
@@ -63,6 +73,9 @@ public class Libreta {
         JOptionPane.showMessageDialog(null,cadena);
     }
     
+    /**
+     * Permite borrar contactos de la libreta a partir de su id
+     */
     public void borrar(){
         boolean notFound = true;
         int id = Integer.parseInt(JOptionPane.showInputDialog("Introduzca el id del contacto que desea borrar:"));
@@ -80,6 +93,9 @@ public class Libreta {
         }
     }
     
+    /**
+     * Permite crear un grupo de contactos vacío.
+     */
     public void crearGrupo(){
         boolean grupoLleno = true;
         String nombre = JOptionPane.showInputDialog("Introduce el nombre del grupo");
@@ -96,6 +112,9 @@ public class Libreta {
         }
     }
     
+    /**
+     * Permite agregar un contacto a un grupo a partir del id del contacto y el nombre del grupo.
+     */
     public void agregarAGrupo(){
         boolean contactoEncontrado = false ,grupoEncontrado = false;
         int indiceContactos = 0, indiceGrupos=0;
