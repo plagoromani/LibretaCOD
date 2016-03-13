@@ -8,7 +8,7 @@ package libretacontactos;
 import javax.swing.JOptionPane;
 
 /**Contiene el menú de la aplicación y es desde donde se invocan los métodos principales de la aplicación
- * @author JoTaQuery
+ * @author Pablite5
  * @version 2.1
  * 
  */

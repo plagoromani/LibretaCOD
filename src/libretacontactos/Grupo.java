@@ -9,7 +9,7 @@ package libretacontactos;
 /**
  *No dispone de métodos funcionales para la aplicación, los únicos métodos que tiene son getters y setters.
  * Permite agrupar los contactos en grupos.
- * @author JotaQuery
+ * @author Pablite5
  */
 public class Grupo {
     private String nombre;

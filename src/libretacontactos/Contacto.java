@@ -8,7 +8,7 @@ package libretacontactos;
 /**
  *Nos permite crear contactos que son los objetos más pequeños de la aplicación para trabajar con ellos desde la clase
  * libreta.
- * @author JotaQuery
+ * @author Pablite5
  */
 public class Contacto {
     public static int ncontactos=1;
